@@ -3,7 +3,11 @@
     <head>
         <title>Ancient Civilizations Interactive Map</title>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link href="bower_components/polymer/polymer-micro.html" rel="import">
+        <link href="bower_components/polymer/polymer.html" rel="import">
+        <link rel="import" href="bower_components/iron-flex-layout/iron-flex-layout.html">
+        <link rel="import" href="bower_components/iron-flex-layout/classes/iron-flex-layout.html">
+        <link rel="import" href="bower_components/jQuery/dist/jquery.min.js">
+        <link rel="import" href="js/jquery.imagemapster.js">
         
         <style is="custom-style">
             
@@ -13,6 +17,6 @@
         </style>
     </head>
     <body unresolved>
-        <img src="media/imgs/world-map.jpg" width="100%" height="100%">
+        <img src="media/imgs/world-map.jpg" width="100%" style="z-index: 0;" class="fullbleed layout vertical center">
     </body>
 </html>
