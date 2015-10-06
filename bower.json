@@ -1,0 +1,19 @@
+{
+  "name": "ancient_civilizations_school_project",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pranavburugula/ancient_civilizations_school_project",
+  "authors": [
+    "pranavburugula <pranav.burugula@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  }
+}
