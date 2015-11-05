@@ -8,12 +8,11 @@
     <link rel="import" href="bower_components/iron-flex-layout/iron-flex-layout.html">
     <link rel="import" href="bower_components/iron-flex-layout/classes/iron-flex-layout.html">
     <link rel="import" href="bower_components/paper-material/paper-material.html">
-    <link href="js/jquery.qtip.css" rel="stylesheet" type="text/css">
     <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.imagemapster.js" type="text/javascript"></script>
     <script src="js/jquery.maphilight.min.js" type="text/javascript"></script>
     <script src="bower_components/qTip/jquery.qtip.min.js" type="text/javascript"></script>
-    <script src="bower_components/imagesloaded/imageloaded.pkg.min.js" type="text/javascript"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
     <style is="custom-style">
 
@@ -26,7 +25,7 @@
 <body unresolved>
     <img id="world-map" src="media/imgs/world-map.jpg" usemap="#world-image-map" />
     <map name="world-image-map" id="world-img-map">
-        <area id="mayan" name="mayan" shape="poly" href="#" data-tooltip="<b>The Mayan Civilization</b> (300BC - 900AD)" coords="506,495,502,512,510,520,518,528,524,528,528,523,533,517,536,514,537,507,539,501,541,495,546,491,548,486,549,481,553,478,554,473,550,468,542,469,533,473,527,479,525,487,519,491" />
+        <area id="mayan" name="mayan" shape="poly" href="#" class="hasToolTip" coords="506,495,502,512,510,520,518,528,524,528,528,523,533,517,536,514,537,507,539,501,541,495,546,491,548,486,549,481,553,478,554,473,550,468,542,469,533,473,527,479,525,487,519,491" />
         <area id="greek" name="greek" shape="poly" href="#" coords="1143,353,1137,358,1138,368,1148,377,1151,373,1154,365,1152,359,1151,355" />
         <area id="rome" name="rome" shape="poly" href="#" coords="1076,313,1081,321,1078,329,1072,337,1072,352,1073,361,1085,366,1103,371,1111,369,1115,358,1115,353,1115,349,1122,354,1123,349,1118,346,1111,343,1103,338,1100,333,1096,326,1090,321,1092,313,1090,308,1080,308"
         />
@@ -88,13 +87,6 @@
                 fillColor: "ffffff"
             });
         });
-    </script>
-    <script>
-        $('[data-tooltip!=""]').qtip({
-            content: {
-                attr: 'data-tooltip'
-            }
-        })
     </script>
 </body>
 
