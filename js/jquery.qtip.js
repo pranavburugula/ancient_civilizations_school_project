@@ -6,9 +6,9 @@
  * Released under the MIT licenses
  * http://jquery.org/license
  *
- * Date: Thu Aug 13 2015 04:24 EDT-0400
+ * Date: Wed Aug 19 2015 09:21 EDT-0400
  * Plugins: viewport imagemap
- * Styles: core css3
+ * Styles: core basic
  */
 /*global window: false, jQuery: false, console: false, define: false */
 
